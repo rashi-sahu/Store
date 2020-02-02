@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Navbar extends Component {
+class Cart extends Component {
     render() {
         return (
             <div>
-            <h3>hello for</h3>
+                <h3>hello from Cart</h3>
             </div>
         );
     }
 }
 
-export default Navbar;
+export default Cart;

@@ -1,0 +1,6 @@
+{
+    "javascript.suggest.names": false,
+    "javascript.suggest.paths": false,
+    "javascript.suggest.completeJSDocs": false,
+    "javascript.suggest.autoImports": false
+}

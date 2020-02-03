@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import logo from "../logo.svg";
+import { ButtonContainer } from "./Button"
 
 class Navbar extends Component {
     render() {
@@ -22,10 +23,12 @@ class Navbar extends Component {
                     </li>
                 </ul>
                 <Link to = "/" className="ml-auto">
-                    <button>
+                    <ButtonContainer>
+                        <span className="mr-2">
                         <i className="fas fa-cart-plus" /> 
-                        My Cart
-                    </button>
+                        </span>
+                        my cart
+                    </ButtonContainer>
                 </Link>
             </nav>
         );
